@@ -1,0 +1,22 @@
+{
+  "name": "bitfex",
+  "version": "1.0.0",
+  "description": "BitFex.Trade API client library for node.js",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --presets babel-preset-env --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "author": "BitFex.Trade",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.40",
+    "babel-cli": "7.0.0-beta.3",
+    "@babel/core": "7.0.0-beta.40",
+    "babel-preset-env": "7.0.0-beta.3"
+  }
+}
